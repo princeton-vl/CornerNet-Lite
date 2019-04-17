@@ -1,0 +1,56 @@
+{
+    "system": {
+        "dataset": "COCO",
+        "batch_size": 48,
+        "sampling_function": "cornernet_saccade",
+
+        "train_split": "trainval",
+        "val_split": "minival",
+
+        "learning_rate": 0.00025,
+        "decay_rate": 10,
+
+        "val_iter": 100,
+
+        "opt_algo": "adam",
+        "prefetch_size": 5,
+
+        "max_iter": 500000,
+        "stepsize": 450000,
+        "snapshot": 5000,
+
+        "chunk_sizes": [12, 12, 12, 12]
+    },
+    
+    "db": {
+        "rand_scale_min": 0.5,
+        "rand_scale_max": 1.1,
+        "rand_scale_step": 0.1,
+        "rand_scales": null,
+
+        "rand_full_crop": true,
+        "gaussian_bump": true,
+        "gaussian_iou": 0.5,
+
+        "min_scale": 16,
+        "view_sizes": [],
+
+        "height_mult": 31,
+        "width_mult": 31,
+
+        "input_size": [255, 255],
+        "output_sizes": [[64, 64]],
+
+        "att_max_crops": 30,
+        "att_scales": [[1, 2, 4]],
+        "att_thresholds": [0.3],
+
+        "top_k": 12,
+        "num_dets": 12,
+        "categories": 80,
+        "ae_threshold": 0.3,
+        "nms_threshold": 0.5,
+
+        "max_per_image": 100
+    }
+}
