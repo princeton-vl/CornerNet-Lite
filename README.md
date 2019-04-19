@@ -1,7 +1,7 @@
 # CornerNet-Lite: Training, Evaluation and Testing Code
 Code for reproducing results in the following paper:
 
-**CornerNet-Lite: Efficient Keypoint Based Object Detection**  
+[**CornerNet-Lite: Efficient Keypoint Based Object Detection**](https://arxiv.org/abs/1904.08900)  
 Hei Law, Yun Teng, Olga Russakovsky, Jia Deng  
 *arXiv* 
 
@@ -47,6 +47,7 @@ Put the CornerNet-Saccade model under `<CornerNet-Lite dir>/cache/nnet/CornerNet
 
 Note: The CornerNet model is the same as the one in the original [CornerNet repo](https://github.com/princeton-vl/CornerNet). We just ported it to this new repo.
 
+### Running the Demo Script
 After downloading the models, you should be able to use the detectors on your own images. We provide a demo script `demo.py` to test if the repo is installed correctly.
 ```
 python demo.py
