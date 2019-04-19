@@ -3,7 +3,7 @@ Code for reproducing results in the following paper:
 
 [**CornerNet-Lite: Efficient Keypoint Based Object Detection**](https://arxiv.org/abs/1904.08900)  
 Hei Law, Yun Teng, Olga Russakovsky, Jia Deng  
-*arXiv* 
+*arXiv:1904.08900* 
 
 ## Getting Started
 ### Software Requirement
